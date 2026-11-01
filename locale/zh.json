@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GitHub 登录",
+    "description": "用设备码或个人访问令牌登录 GitHub。令牌保存在 Harness 凭据库中，登录后助手可以通过 `github` 工具以你的身份调用 GitHub REST API。"
+  }
+}

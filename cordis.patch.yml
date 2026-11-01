@@ -1,0 +1,6 @@
+# GitHub sign-in for the Harness Web UI (Settings -> GitHub).
+# The Host half serves /api/dsh-github-login/* and registers the `github` tool;
+# the Client half renders the settings page.
+- insert:
+    - id: github-login
+      name: '@local/github-login'

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "GitHub Sign-in",
+    "description": "Sign in to GitHub with a device code or a personal access token. The token is stored in the harness credential store and a `github` tool lets the agent call the GitHub REST API as you."
+  }
+}

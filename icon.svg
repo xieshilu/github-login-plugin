@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="GitHub sign-in">
+  <title>GitHub sign-in</title>
+  <rect width="64" height="64" rx="16" fill="#2f81f7"/>
+  <path d="M22 42V30a8 8 0 0 1 8-8h4" fill="none" stroke="#ffffff" stroke-width="3.6" stroke-linecap="round"/>
+  <circle cx="22" cy="46" r="5" fill="#ffffff"/>
+  <circle cx="43" cy="20" r="5" fill="#ffffff"/>
+  <rect x="33" y="34" width="17" height="13" rx="3" fill="#ffffff"/>
+  <path d="M37.5 34v-3a4.5 4.5 0 0 1 9 0v3" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="41.5" cy="40.5" r="1.8" fill="#2f81f7"/>
+</svg>

@@ -1,0 +1,34 @@
+{
+  "name": "@local/github-login",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GitHub sign-in for DeepSeek Harness: device-code or personal-access-token login, the token stays in the harness credential store, and a `github` tool lets the agent call the REST API as the signed-in user.",
+  "icon": "icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}
